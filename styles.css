@@ -1,0 +1,56 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#mainBody {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    height: 100vh;
+}
+
+.dayBody {
+    background-color: #fffcf2;
+}
+
+.nightBody {
+    background-color: #003049;
+    color: #fffcf2;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 10rem;
+}
+
+#containerHead {
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+#btnSwitch {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 10px;
+}
+
+#btnSwitch:hover {
+    cursor: pointer;
+}
+
+.dayBtnSwitch {
+    background-color: #003049;
+    color: #fffcf2;
+}
+
+.nightBtnSwitch {
+    color: #003049;
+    background-color: #fffcf2;
+}
